@@ -11,8 +11,7 @@ import markdown
 
 app = Flask(__name__)
 
-os.environ["PINECONE_API_KEY"] = "pcsk_4xXRWe_9UaJ3zKi9JcvVB7BqPLBBGaZe5HNm5R4RoXxGZNcKpTNdJV3ZCFq3Gv36TGZvuz"
-os.environ["GROQ_API_KEY"] = "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"
+
 
 embeddings = download_hugging_face_embeddings()
 
