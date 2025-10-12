@@ -3,6 +3,7 @@ langchain
 flask
 pypdf
 python-dotenv
+markdown
 pinecone[grpc]
 langchain-pinecone
 langchain_groq
