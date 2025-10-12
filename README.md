@@ -1,6 +1,6 @@
-# CHATHEALTH - AI-Powered Healthcare Chatbot
+# HealthChat - AI-Powered Healthcare Assistant Using Retrieval-Augmented Generation (RAG)
 
-A sophisticated healthcare chatbot built with Flask, LangChain, and Pinecone that provides intelligent medical assistance using RAG (Retrieval-Augmented Generation) technology.
+HealthChat is an intelligent, AI-driven healthcare chatbot designed to assist users with medical inquiries in real time. Built using Flask, LangChain, and Pinecone, it leverages Retrieval-Augmented Generation (RAG) to deliver accurate, context-aware medical responses by combining large language model reasoning with relevant medical document retrieval. The system integrates cutting-edge technologies like Groq’s GPT-OSS-20B, Hugging Face embeddings, and Pinecone vector search to simulate an expert healthcare assistant capable of understanding complex medical queries and providing reliable, human-like explanations.
 
 ## 🚀 Features
 
