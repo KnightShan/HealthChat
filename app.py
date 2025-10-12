@@ -8,10 +8,14 @@ from langchain_core.prompts import ChatPromptTemplate
 from src.prompt import *
 import os
 import markdown
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 
+load_dotenv()
 
+os.environ["PINECONE_API_KEY"] = os.getenv("PINECONE_API_KEY")
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
 embeddings = download_hugging_face_embeddings()
 
